@@ -8,7 +8,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load("best_model.pkl")
+model = joblib.load("model/best_model.pkl")
 
 st.title("Churn Prediction App")
 
